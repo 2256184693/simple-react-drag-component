@@ -1,0 +1,22 @@
+.container {
+  .title{
+    text-align: center;
+  }
+}
+.no-select {
+  user-select: none;
+}
+.item {
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+  background: #FFF;
+  text-align: center;
+  line-height: 100px;
+  border: 1px solid #ddd;
+  margin: 0 auto;
+  &.drag{
+    background: rgba(0, 0, 0, 0.7);
+    color: #FFF;
+  }
+}

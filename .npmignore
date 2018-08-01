@@ -1,0 +1,9 @@
+node_modules/
+src/
+test/
+example/
+.babelrc
+.vscode/
+package-lock.json
+lib/
+build.js
